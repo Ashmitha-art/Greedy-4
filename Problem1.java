@@ -2,8 +2,8 @@
 //Time -> O(n log m)
 class Solution{
   public int shortestString(String source, String target){
-    int m = source.length; 
-    int n = target.length; 
+    int m = source.length(); 
+    int n = target.length(); 
     int sp = 0; 
     int tp = 0; 
     int count = 1;
